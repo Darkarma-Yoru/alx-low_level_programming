@@ -1,21 +1,20 @@
 #include "main.h"
-
 /**
  * main - Entry point
- *
- * Description: prints _putchar using putchar prototype
- *
- * Return: Always 0 (Success)
-*/
-
+ * Description: prints 'Holberton \n'
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+char str[] = "_putchar\n";
+int i = 0;
 
-	for (ch = 0; ch < 8; ++ch)
-		_putchar(str[ch]);
-	_putchar('\n');
+while (str[i] != '\0')
+	{
+	char c = str[i];
 
-	return (0);
+	_putchar(c);
+	i++;
+	}
+return (0);
 }
