@@ -1,1 +1,0 @@
-this is the 0x09-static_libriaries dir
